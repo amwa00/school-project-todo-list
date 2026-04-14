@@ -1,0 +1,34 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #8f6875;
+}
+
+.todo-container {
+  background-color: #572e3c;
+  border: solid 1px #bf94a2;
+}
+
+.task, .btn-primary {
+  background-color: #edd2db;
+  color: #572e3c;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #c499a7;
+}
+
+h2, .input::placeholder {
+  color: #edd2db;
+}
+
+.input {
+  background-color: #bf94a2;
+}
+
+.input:focus {
+  color: white;
+}
